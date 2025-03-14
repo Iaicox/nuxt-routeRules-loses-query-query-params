@@ -7,6 +7,7 @@ export default defineNuxtConfig({
       failOnError: false,
       routes: [ '/', '/test' ],
       ignore: [/^\/example/],
+      crawlLinks: false,
     }
   },
   routeRules: {
