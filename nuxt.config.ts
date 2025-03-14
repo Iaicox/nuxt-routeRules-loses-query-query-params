@@ -5,7 +5,8 @@ export default defineNuxtConfig({
   nitro: {
     prerender: {
       failOnError: false,
-      ignore: ['/example*'],
+      routes: [ '/', '/test' ],
+      ignore: [/^\/example/],
     }
   },
   routeRules: {
