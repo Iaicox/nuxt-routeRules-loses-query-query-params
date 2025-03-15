@@ -5,10 +5,10 @@ export default defineNuxtConfig({
 
   ssr: false,
   app: {
-    // baseURL: '/nuxt-routeRules-loses-query-query-params',
-    head: {
-      base: { href: '/nuxt-routeRules-loses-query-query-params' },
-    },
+    baseURL: '/nuxt-routeRules-loses-query-query-params',
+    // head: {
+    //   base: { href: '/nuxt-routeRules-loses-query-query-params' },
+    // },
   },
   nitro: {
     // baseURL: '/nuxt-routeRules-loses-query-query-params',
