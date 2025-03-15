@@ -5,12 +5,12 @@ export default defineNuxtConfig({
   nitro: {
     prerender: {
       failOnError: false,
-      routes: [ '/', '/test' ],
+      routes: [ '/' ],
       ignore: [/^\/example/],
       crawlLinks: false,
     }
   },
   routeRules: {
-    '/example': { redirect: '/test' },
+    '/test': { redirect: '/' },
   },
 });
