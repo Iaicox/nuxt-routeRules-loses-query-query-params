@@ -6,6 +6,7 @@ export default defineNuxtConfig({
     baseURL: '/nuxt-routeRules-loses-query-query-params'
   },
   nitro: {
+    baseURL: '/nuxt-routeRules-loses-query-query-params',
     prerender: {
       failOnError: false,
       routes: [ '/' ],
