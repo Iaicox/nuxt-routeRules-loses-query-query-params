@@ -11,7 +11,6 @@ export default defineNuxtConfig({
     },
   },
   nitro: {
-    // baseURL: '/nuxt-routeRules-loses-query-query-params',
     prerender: {
       failOnError: false,
       routes: [ '/' ],
@@ -20,6 +19,6 @@ export default defineNuxtConfig({
     }
   },
   routeRules: {
-    '/test': { redirect: '/' },
+    '/example': { redirect: '/test' },
   },
 });
